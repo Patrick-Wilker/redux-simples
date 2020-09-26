@@ -11,3 +11,10 @@ h1{
 .linha{
     display: flex;
 }
+
+@media(max-width: 1000px){
+    .linha{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
